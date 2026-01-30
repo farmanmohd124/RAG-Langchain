@@ -28,5 +28,4 @@ def load_all_documents(data_dir: str) -> List[Any]:
         except Exception as e:
             print(f"[ERROR] Failed to load PDF {pdf_file}: {e}")
 
-
-            return documents
+    return documents
