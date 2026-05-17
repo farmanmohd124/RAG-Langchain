@@ -1,9 +1,36 @@
+# API & Server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# UI
+streamlit
+
+# LangChain core + integrations
 langchain
 langchain-core
 langchain-community
 langchain-groq
+langchain-anthropic
+
+# LLM providers
+groq
+anthropic
+
+# Vector store & embeddings
+faiss-cpu
+sentence-transformers
+
+# Document loaders
 pypdf
 pymupdf
-sentence-transformers
-faiss-cpu
+
+# Web search
+duckduckgo-search
+
+# Config & environment
+python-dotenv
+pydantic-settings
+
+# Utilities
 chromadb
